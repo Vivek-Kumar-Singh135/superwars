@@ -1,4 +1,45 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  justify-items: center;
+  grid-template-rows: 1;
+  grid-auto-columns: minmax(50px, auto);
+  column-gap: 10px;
+  justify-items: center;
+}
+
+.hero{
+  width: fit-content;
+  border:1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+.score{
+  width: fit-content;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.villain{
+  width: fit-content;
+  border:1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#name{
+  font-weight: bold;
+}
+
+#power{
+  margin-top: 0%;
+  font-size: xx-large;
+  font-weight: bold;
 }
